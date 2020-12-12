@@ -12,6 +12,60 @@ h1 {
 	text-align:center;
 
 }
+
+}
+
+h1 {
+	text-align:center;
+
+}
+
+select {
+  width: 30%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+.catagory{
+	 font-family: Impact, Charcoal, sans-serif;
+color: white;
+	padding: 10px;
+  background-color: black;
+
+}
+
+
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float:left;
+  width: 190px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 10px;
+  text-align: left;
+   font-family: Arial, Helvetica, sans-serif;
+   color: white;
+}
+
+main:after { 
+  content:''; 
+  float:left;
+}
+
 </style>
 
 
@@ -26,15 +80,27 @@ h1 {
 
 <div class="topnav">
 
-	<a href="BlackMagic_Homepage.html">Home</a>
+	<a href="index.html">Home</a>
   <a href="#about">About Us</a>
   <a href="contact_us_final.html">Contact Us</a>
-  <a href="#masks">Masks</a>
-  <a href="#props">Props</a>
+  <a href="Mask.html">Masks</a>
+  <a href="BlackMagic_Costumes.html">Costumes</a>
   <input type="text" placeholder="Search..">
 </div>
 
 <br>
+
+<div class="catagory">
+<form>
+	<label for="Catagory">Catagory:</label>
+  <select id="Catagory" name="Catagory">
+  <option value="MC">Movie Costumes</option>
+  <option value="H">Horror</option>
+  <option value="SF">Science Fiction</option>
+  <option value="CC">Children's Costumes</option>
+  </select>
+</form>
+</div>
 
 
 

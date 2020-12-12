@@ -90,12 +90,10 @@ a:hover {
   }
 }
 
+ 
 .galleryheader {
 	 font-family: Impact, Charcoal, sans-serif;
 color: white;
 	padding: 5px;
-
-  text-align:center;
   background-color: black;
-
 }
